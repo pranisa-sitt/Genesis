@@ -1,2 +1,13 @@
 
 @import 'nav';
+@import 'header';
+@import 'photo-grid';
+
+body {
+  margin: 0;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 60px;
+  padding-bottom: 47px;
+  background: #F2F2F2;
+}
