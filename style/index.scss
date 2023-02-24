@@ -1,7 +1,10 @@
 
+@import 'index-photo-grid';
 @import 'nav';
-@import 'header';
-@import 'photo-grid';
+@import 'index-header';
+@import 'font';
+@import 'index-services';
+
 
 body {
   margin: 0;
@@ -10,4 +13,9 @@ body {
   padding-top: 60px;
   padding-bottom: 47px;
   background: #F2F2F2;
-}
+ }
+
+ 
+
+
+ 
