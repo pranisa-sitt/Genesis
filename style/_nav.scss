@@ -1,5 +1,4 @@
-$main-font: 'Mulish', sans-serif;
-$main-font-color: #111111;
+@use 'font';
 
 
 nav {
@@ -9,12 +8,10 @@ nav {
  justify-content: space-between;
 }
 
-
 .logo {
  width: 90px;
  height: 20px;
 }
-
 
 .page-link a {
  width: 67px;
