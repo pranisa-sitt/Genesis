@@ -1,0 +1,41 @@
+@use 'font';
+
+.contact-form {
+  width: 475px;
+  height: 290px;
+
+  & label {
+    width: 70px;
+    height: 20px;
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $secondary-font-color;
+  }
+
+  & input {
+    width: 80%;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $secondary-font-color;
+    border: none;
+    background-color: transparent;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  & hr {
+    border: 1px solid $txt-line;
+    margin-top: 16px;
+    margin-bottom: 50px;
+  }
+}
