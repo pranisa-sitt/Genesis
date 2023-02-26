@@ -1,5 +1,7 @@
 @use 'font';
 
+@import 'txt-size';
+
 .contact-header {
   width: 100%;
   height: 320px;
@@ -13,68 +15,24 @@
     width: 475px;
     height: 252px;
 
-    & h2 {
-      width: 100%;
-      height: 175px;
-      font-family: $main-font;
+    & h2 { 
+      @include txt-size(100%, 175px);
       font-size: 40px;
       font-weight: 700;
       line-height: 55px;
       letter-spacing: 0px;
-      text-align: left;
       color: $main-font-color;
     }
 
     & p {
-      width: 100%;
-      height: 56px;
-      font-family: $main-font;
+      @include txt-size(100%, 56px);
+      color: $secondary-font-color;
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
       letter-spacing: 0px;
-      text-align: left;
-      color: $secondary-font-color;
     }
   }
-/*
-  &__form {
-    width: 475px;
-    height: 290px;
-
-    & label {
-      width: 70px;
-      height: 20px;
-      font-family: $main-font;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 20px;
-      letter-spacing: 0px;
-      text-align: left;
-      color: $secondary-font-color;
-    }
-
-    & input {
-      width: 80%;
-      height: 20px;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 20px;
-      letter-spacing: 0px;
-      text-align: left;
-      color: $secondary-font-color;
-      border: none;
-      background-color: transparent;
-    }
-
-    & hr {
-      border: 1px solid $txt-line;
-      margin-top: 16px;
-      margin-bottom: 50px;
-    }
-  }*/
 }
 
-input:focus {
-  outline: none;
-}
+

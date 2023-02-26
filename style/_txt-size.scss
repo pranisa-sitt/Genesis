@@ -1,0 +1,6 @@
+@use 'font';
+
+@mixin txt-size($width, $hight){
+  font-family: $main-font;
+  text-align: left;
+}
